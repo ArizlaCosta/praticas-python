@@ -22,6 +22,10 @@ while a == 1:
         print("digite dois numeros")
         numero1 = int(input("digite o 1 numero: "))
         numero2 = int(input("digite o 2 numero: "))
+        lista = []
+        lista.append(numero1)
+        lista.append(numero2)
+
     elif r == 5:
         a = 0
         print("acabou")
